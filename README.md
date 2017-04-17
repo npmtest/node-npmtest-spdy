@@ -1,7 +1,7 @@
 # test coverage for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmtest-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-spdy.svg)](https://travis-ci.org/npmtest/node-npmtest-spdy)
 #### Implementation of the SPDY protocol on node.js.
 
-[![NPM](https://nodei.co/npm/spdy.png?downloads=true)](https://www.npmjs.com/package/spdy)
+[![NPM](https://nodei.co/npm/spdy.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/spdy)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-spdy/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-spdy/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-spdy/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-spdy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-spdy/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-spdy/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-spdy/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-spdy%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-spdy/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-spdy/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-spdy/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-spdy%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-spdy/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-spdy/build/test-report.html](https://npmtest.github.io/node-npmtest-spdy/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-spdy/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-spdy/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-spdy/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-spdy/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-spdy/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-spdy/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-spdy/build/screenCapture.npmPackageListing.svg)
 
@@ -27,25 +33,20 @@
 
 {
     "author": {
-        "name": "Fedor Indutny",
-        "email": "fedor.indutny@gmail.com"
+        "name": "Fedor Indutny"
     },
     "bugs": {
-        "url": "https://github.com/indutny/node-spdy/issues",
-        "email": "node-spdy+bugs@indutny.com"
+        "url": "https://github.com/indutny/node-spdy/issues"
     },
     "contributors": [
         {
-            "name": "Chris Storm",
-            "email": "github@eeecooks.com"
+            "name": "Chris Storm"
         },
         {
-            "name": "François de Metz",
-            "email": "francois@2metz.fr"
+            "name": "François de Metz"
         },
         {
-            "name": "Ilya Grigorik",
-            "email": "ilya@igvita.com"
+            "name": "Ilya Grigorik"
         },
         {
             "name": "Roberto Peon"
@@ -54,8 +55,7 @@
             "name": "Tatsuhiro Tsujikawa"
         },
         {
-            "name": "Jesse Cravens",
-            "email": "jesse.cravens@gmail.com"
+            "name": "Jesse Cravens"
         }
     ],
     "dependencies": {
@@ -88,21 +88,17 @@
     "main": "./lib/spdy",
     "maintainers": [
         {
-            "name": "fedor.indutny",
-            "email": "fedor.indutny@gmail.com"
+            "name": "fedor.indutny"
         },
         {
-            "name": "indutny",
-            "email": "fedor@indutny.com"
+            "name": "indutny"
         },
         {
-            "name": "rauchg",
-            "email": "rauchg@gmail.com"
+            "name": "rauchg"
         }
     ],
     "name": "spdy",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/indutny/node-spdy.git"
