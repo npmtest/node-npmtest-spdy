@@ -1,4 +1,7 @@
-# test coverage for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmtest-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-spdy.svg)](https://travis-ci.org/npmtest/node-npmtest-spdy)
+# npmtest-spdy
+
+#### basic test coverage for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmtest-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-spdy.svg)](https://travis-ci.org/npmtest/node-npmtest-spdy)
+
 #### Implementation of the SPDY protocol on node.js.
 
 [![NPM](https://nodei.co/npm/spdy.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/spdy)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-spdy/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-spdy/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-spdy/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-spdy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-spdy/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-spdy/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-spdy/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-spdy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-spdy/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-spdy/build/coverage.html/index.html)
 
@@ -106,7 +109,8 @@
     "scripts": {
         "test": "jscs lib/**/*.js test/*.js && jshint lib/**/*.js && mocha --reporter=spec test/*-test.js"
     },
-    "version": "3.4.4"
+    "version": "3.4.4",
+    "bin": {}
 }
 ```
 
